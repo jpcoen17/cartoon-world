@@ -212,13 +212,13 @@ export default function TestimonialsSection({ isDarkMode }: { isDarkMode: boolea
               boxShadow: `8px 8px 0 ${active.color}44`,
             }}
           >
-{/* Quote mark */}
-<div
-  className="absolute top-6 right-8 text-8xl font-bold leading-none opacity-10"
-  style={{ fontFamily: 'Georgia, serif', color: active.color }}
->
-  &quot;
-</div>
+            {/* Quote mark */}
+            <div
+              className="absolute top-6 right-8 text-8xl font-bold leading-none opacity-10"
+              style={{ fontFamily: 'Georgia, serif', color: active.color }}
+            >
+              "
+            </div>
 
             <div className="flex flex-col md:flex-row gap-8 items-start">
               {/* Avatar */}
